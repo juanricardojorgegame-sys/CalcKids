@@ -1,0 +1,149 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#FFF9C4;
+}
+
+.menu{
+    background:#00BCD4;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.menu ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.inicio{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:60px;
+    gap:50px;
+}
+
+.inicio img{
+    width:280px;
+}
+
+.contenido{
+    max-width:500px;
+}
+
+.contenido h1{
+    color:#FF4081;
+    font-size:48px;
+}
+
+.contenido p{
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#FF9800;
+    color:white;
+    padding:15px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#caracteristicas{
+    padding:50px;
+    text-align:center;
+}
+
+.tarjetas{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.tarjeta{
+    background:#B2EBF2;
+    width:280px;
+    padding:20px;
+    border-radius:20px;
+}
+
+#descargar{
+    text-align:center;
+    padding:60px;
+    background:#C8E6C9;
+}
+.footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin: 5px 0;
+}
+.encabezado{
+    background: linear-gradient(90deg, #4fc3f7, #81c784);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.logo-titulo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.logo-titulo h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.logo-titulo p{
+    margin: 5px 0 0;
+    font-size: 0.95rem;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
